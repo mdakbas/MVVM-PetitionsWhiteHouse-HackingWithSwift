@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD4EB1162A8A791E004BAA93 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4EB1152A8A791E004BAA93 /* Second.storyboard */; };
+		FD4EB1192A8B9B94004BAA93 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4EB1182A8B9B94004BAA93 /* DetailVC.swift */; };
+		FD4EB11C2A8BC193004BAA93 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4EB11B2A8BC193004BAA93 /* Detail.storyboard */; };
+		FD4EB11E2A8BE137004BAA93 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4EB11D2A8BE137004BAA93 /* SecondViewModel.swift */; };
 		FD5655682A8A3E58003AC0FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5655672A8A3E58003AC0FD /* AppDelegate.swift */; };
 		FD56556A2A8A3E58003AC0FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5655692A8A3E58003AC0FD /* SceneDelegate.swift */; };
-		FD56556C2A8A3E58003AC0FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56556B2A8A3E58003AC0FD /* ViewController.swift */; };
-		FD56556F2A8A3E58003AC0FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD56556D2A8A3E58003AC0FD /* Main.storyboard */; };
 		FD5655712A8A3E59003AC0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5655702A8A3E59003AC0FD /* Assets.xcassets */; };
-		FD5655742A8A3E59003AC0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5655722A8A3E59003AC0FD /* LaunchScreen.storyboard */; };
+		FD56557F2A8A3ECA003AC0FD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56557E2A8A3ECA003AC0FD /* HomeVC.swift */; };
+		FD5655812A8A3EE2003AC0FD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5655802A8A3EE2003AC0FD /* HomeViewModel.swift */; };
+		FD5655842A8A3F15003AC0FD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5655832A8A3F15003AC0FD /* Home.storyboard */; };
+		FD5655872A8A4031003AC0FD /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5655862A8A4031003AC0FD /* NavController.swift */; };
+		FD5655892A8A423D003AC0FD /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5655882A8A423D003AC0FD /* SecondVC.swift */; };
+		FD56558D2A8A4C4C003AC0FD /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56558B2A8A4C4C003AC0FD /* HomeCell.swift */; };
+		FD56558E2A8A4C4C003AC0FD /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD56558C2A8A4C4C003AC0FD /* HomeCell.xib */; };
+		FD5655912A8A50D0003AC0FD /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5655902A8A50D0003AC0FD /* Petition.swift */; };
+		FD5655952A8A5156003AC0FD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5655942A8A5156003AC0FD /* NetworkManager.swift */; };
+		FD5655982A8A5331003AC0FD /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5655972A8A5331003AC0FD /* Service.swift */; };
+		FD56559A2A8A536F003AC0FD /* ApiUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5655992A8A536F003AC0FD /* ApiUrls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD4EB1152A8A791E004BAA93 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		FD4EB1182A8B9B94004BAA93 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		FD4EB11B2A8BC193004BAA93 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		FD4EB11D2A8BE137004BAA93 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
 		FD5655642A8A3E58003AC0FD /* MVVM-WhitehousePetition-HackingWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-WhitehousePetition-HackingWithSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5655672A8A3E58003AC0FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD5655692A8A3E58003AC0FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD56556B2A8A3E58003AC0FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD56556E2A8A3E58003AC0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD5655702A8A3E59003AC0FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FD5655732A8A3E59003AC0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD5655752A8A3E59003AC0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD56557E2A8A3ECA003AC0FD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FD5655802A8A3EE2003AC0FD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FD5655832A8A3F15003AC0FD /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		FD5655862A8A4031003AC0FD /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		FD5655882A8A423D003AC0FD /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		FD56558B2A8A4C4C003AC0FD /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		FD56558C2A8A4C4C003AC0FD /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		FD5655902A8A50D0003AC0FD /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		FD5655942A8A5156003AC0FD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FD5655972A8A5331003AC0FD /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		FD5655992A8A536F003AC0FD /* ApiUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUrls.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD4EB1172A8B9B79004BAA93 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				FD4EB1182A8B9B94004BAA93 /* DetailVC.swift */,
+				FD4EB11B2A8BC193004BAA93 /* Detail.storyboard */,
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
 		FD56555B2A8A3E58003AC0FD = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +89,90 @@
 		FD5655662A8A3E58003AC0FD /* MVVM-WhitehousePetition-HackingWithSwift */ = {
 			isa = PBXGroup;
 			children = (
+				FD5655962A8A52B2003AC0FD /* Service */,
+				FD5655922A8A513A003AC0FD /* Utilities */,
+				FD56558F2A8A508F003AC0FD /* Model */,
+				FD56557B2A8A3E98003AC0FD /* Core */,
 				FD5655672A8A3E58003AC0FD /* AppDelegate.swift */,
 				FD5655692A8A3E58003AC0FD /* SceneDelegate.swift */,
-				FD56556B2A8A3E58003AC0FD /* ViewController.swift */,
-				FD56556D2A8A3E58003AC0FD /* Main.storyboard */,
 				FD5655702A8A3E59003AC0FD /* Assets.xcassets */,
-				FD5655722A8A3E59003AC0FD /* LaunchScreen.storyboard */,
 				FD5655752A8A3E59003AC0FD /* Info.plist */,
 			);
 			path = "MVVM-WhitehousePetition-HackingWithSwift";
+			sourceTree = "<group>";
+		};
+		FD56557B2A8A3E98003AC0FD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FD4EB1172A8B9B79004BAA93 /* DetailVC */,
+				FD5655852A8A4006003AC0FD /* NavigationController */,
+				FD56557D2A8A3EAD003AC0FD /* SecondVC */,
+				FD56557C2A8A3E9F003AC0FD /* HomeVC */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FD56557C2A8A3E9F003AC0FD /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				FD56558A2A8A4C28003AC0FD /* HomeCell */,
+				FD56557E2A8A3ECA003AC0FD /* HomeVC.swift */,
+				FD5655802A8A3EE2003AC0FD /* HomeViewModel.swift */,
+				FD5655832A8A3F15003AC0FD /* Home.storyboard */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		FD56557D2A8A3EAD003AC0FD /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				FD5655882A8A423D003AC0FD /* SecondVC.swift */,
+				FD4EB11D2A8BE137004BAA93 /* SecondViewModel.swift */,
+				FD4EB1152A8A791E004BAA93 /* Second.storyboard */,
+			);
+			path = SecondVC;
+			sourceTree = "<group>";
+		};
+		FD5655852A8A4006003AC0FD /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				FD5655862A8A4031003AC0FD /* NavController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		FD56558A2A8A4C28003AC0FD /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				FD56558B2A8A4C4C003AC0FD /* HomeCell.swift */,
+				FD56558C2A8A4C4C003AC0FD /* HomeCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		FD56558F2A8A508F003AC0FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD5655902A8A50D0003AC0FD /* Petition.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD5655922A8A513A003AC0FD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FD5655942A8A5156003AC0FD /* NetworkManager.swift */,
+				FD5655992A8A536F003AC0FD /* ApiUrls.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FD5655962A8A52B2003AC0FD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FD5655972A8A5331003AC0FD /* Service.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +233,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD5655742A8A3E59003AC0FD /* LaunchScreen.storyboard in Resources */,
+				FD4EB1162A8A791E004BAA93 /* Second.storyboard in Resources */,
 				FD5655712A8A3E59003AC0FD /* Assets.xcassets in Resources */,
-				FD56556F2A8A3E58003AC0FD /* Main.storyboard in Resources */,
+				FD56558E2A8A4C4C003AC0FD /* HomeCell.xib in Resources */,
+				FD4EB11C2A8BC193004BAA93 /* Detail.storyboard in Resources */,
+				FD5655842A8A3F15003AC0FD /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +248,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD56556C2A8A3E58003AC0FD /* ViewController.swift in Sources */,
+				FD5655952A8A5156003AC0FD /* NetworkManager.swift in Sources */,
+				FD5655872A8A4031003AC0FD /* NavController.swift in Sources */,
+				FD56558D2A8A4C4C003AC0FD /* HomeCell.swift in Sources */,
+				FD56557F2A8A3ECA003AC0FD /* HomeVC.swift in Sources */,
 				FD5655682A8A3E58003AC0FD /* AppDelegate.swift in Sources */,
+				FD4EB1192A8B9B94004BAA93 /* DetailVC.swift in Sources */,
+				FD4EB11E2A8BE137004BAA93 /* SecondViewModel.swift in Sources */,
 				FD56556A2A8A3E58003AC0FD /* SceneDelegate.swift in Sources */,
+				FD56559A2A8A536F003AC0FD /* ApiUrls.swift in Sources */,
+				FD5655912A8A50D0003AC0FD /* Petition.swift in Sources */,
+				FD5655982A8A5331003AC0FD /* Service.swift in Sources */,
+				FD5655892A8A423D003AC0FD /* SecondVC.swift in Sources */,
+				FD5655812A8A3EE2003AC0FD /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FD56556D2A8A3E58003AC0FD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD56556E2A8A3E58003AC0FD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FD5655722A8A3E59003AC0FD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD5655732A8A3E59003AC0FD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FD5655762A8A3E59003AC0FD /* Debug */ = {
@@ -292,7 +393,6 @@
 				INFOPLIST_FILE = "MVVM-WhitehousePetition-HackingWithSwift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +420,6 @@
 				INFOPLIST_FILE = "MVVM-WhitehousePetition-HackingWithSwift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
